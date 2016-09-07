@@ -1,11 +1,4 @@
-/*
-*********************************************************
-*							*
-*	Author :  Aniket : IvLabs                       *
-*                 Radha                                 *
-*							*
-*********************************************************
-*/
+
 
 #include "opencv2/objdetect/objdetect.hpp"
 #include "opencv2/highgui/highgui.hpp"
