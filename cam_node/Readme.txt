@@ -1,11 +1,4 @@
 
-*********************************************************
-*	IvLabs : Robotics Lab : VNIT Nagpur             *
-*	Author :  Aniket : IvLabs                       *
-*                 Radha                                 *
-*							*
-*********************************************************
-
 
 This Package take Four Corner points postion of a color marker (here red) and 
 publishes publishes X,Y,Z Position of Camera with w.r.t to global origin.
