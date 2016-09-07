@@ -5,12 +5,8 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/calib3d/calib3d.hpp"
 #include "opencv2/core/core.hpp"
-#include <cv.h>
 #include <iostream>
-#include <stdio.h>
 #include <math.h>
-#include <cmath>
-#include <stdlib.h>
 #include "Pose.h"
 #include "Image_Processing.h"
 #include "Thresholding.h"
@@ -18,10 +14,6 @@
 #include <ros/ros.h>
 #include "cam_node/posi.h"
 
-//Use image_transport for publishing and subscribing to images in ROS
-#include <image_transport/image_transport.h>
-//Use cv_bridge to convert between ROS and OpenCV Image formats
-#include <cv_bridge/cv_bridge.h>
 //Include some useful constants for image encoding. 
 #include <sensor_msgs/image_encodings.h>
 #include "std_msgs/Float64.h"
