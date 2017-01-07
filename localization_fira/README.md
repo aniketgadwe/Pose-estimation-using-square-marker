@@ -9,10 +9,9 @@ publishes publishes X,Y,Z Position of Camera with w.r.t to global origin.
 You have to Feed World points of marker corners w.r.t to global origin in Pose.cpp file
 You will need extenal web camp
 You also have to feed the camera calibration parameters in the Pose.cpp file.
-------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 For running this package you have to keep this package in src folder of your catkin_package
 
@@ -34,6 +33,7 @@ In the new terminal type ( remember to be in same directory)
 $ source devel/setup.bash
 
 $ rosrun localization_fira localization_fira
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
